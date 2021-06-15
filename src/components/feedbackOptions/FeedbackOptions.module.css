@@ -1,0 +1,14 @@
+.btn {
+  border: 1px solid rgb(216, 213, 213);
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: burlywood;
+}
+
+.btn:hover {
+  background-color: rgb(236, 182, 101);
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
